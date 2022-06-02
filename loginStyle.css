@@ -1,0 +1,95 @@
+@import url('https://fonts.googleapis.com/css2?family=Quicksand&family=Quintessential&display=swap');
+body {
+    /* background: rgb(229, 255, 0); */
+    background-size: 100% 100%;
+    /* animation: gradient 15s ease infinite; */
+    height: 80vh;
+}
+
+@keyframes gradient {
+    0% {
+        background-position: 0% 50%;
+    }
+    50% {
+        background-position: 100% 50%;
+    }
+    100% {
+        background-position: 0% 50%;
+    }
+}
+
+fieldset {
+    background-image: url(https://wallpaperaccess.com/full/24866.jpg);
+    border: 0;
+    box-sizing: border-box;
+    box-shadow: rgba(50, 50, 93, 0.25) 0px 50px 100px -20px, rgba(0, 0, 0, 0.3) 0px 30px 60px -30px, rgba(10, 37, 64, 0.35) 0px -2px 6px 0px inset;
+    border-radius: 10px;
+    text-align: center;
+    margin: 100px;
+    padding-top: 20px;
+}
+
+fieldset span1 {
+    /* color: red; */
+    font-size: 20px;
+}
+
+legend {
+    background-color: royalblue;
+    color: skyblue;
+    padding: 50px 50px;
+    font-size: 30px;
+    border-radius: 20px;
+    text-align: center;
+}
+
+input {
+    margin: 10px;
+}
+
+.Register {
+    border-radius: 20px;
+}
+
+.buttonStyle1 {
+    border-radius: 10px;
+    border: 0;
+    width: 150px;
+    height: 30px;
+    color: royalblue;
+}
+
+.buttonStyle1:hover {
+    box-shadow: 11px 7px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+.buttonStyle2 {
+    margin-top: 20px;
+    border-radius: 10px;
+    border: 0;
+    width: 150px;
+    height: 30px;
+    color: royalblue
+}
+
+.buttonStyle2:hover {
+    box-shadow: 11px 7px 17px 0px rgba(0, 0, 0, 0.75);
+}
+
+.buttonStyle3 {
+    display: flex;
+    border-radius: 10px;
+    border: 0;
+    width: 315px;
+    height: 30px;
+    align-items: center;
+    font-style: 20px;
+    text-align: center;
+    margin: auto;
+    justify-content: center;
+    color: royalblue
+}
+
+.buttonStyle3:hover {
+    box-shadow: 11px 7px 17px 0px rgba(0, 0, 0, 0.75);
+}

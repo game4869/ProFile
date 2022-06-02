@@ -1,0 +1,138 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/4a/94/26/4a94268541d7a0ed95a8be5138e8a288.jpg);
+}
+
+img {
+    width: 100%;
+}
+
+h1 {
+    color: rgb(33, 236, 209);
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black;
+    font-size: 30pt;
+    border-style: solid;
+    border-width: 4px;
+    background-image: url(https://data.1freewallpapers.com/detail/circles-lines-round-black-background.jpg);
+}
+
+.grid-container {
+    display: grid;
+    grid-template-columns: 20% auto 20%;
+    grid-gap: 10px;
+}
+
+.grid-container>div {
+    text-align: center;
+}
+
+#header {
+    grid-column: 1 / span 3;
+    margin-top: 30px;
+}
+
+#main1 {
+    grid-column: 1 / span 1;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    margin: auto auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#main2 {
+    grid-column: 2 / span 1;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 26px;
+    font-family: MAX PINJOHNV2;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
+#main3 {
+    grid-column: 3 / span 1;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    margin: auto auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#right {
+    grid-column: 1 / span 3;
+    margin-right: 10px;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    margin: auto auto;
+    display: block;
+    max-width: 100%;
+    height: auto;
+}
+
+#footer {
+    grid-column: 1 / span 3;
+    text-align: center;
+    padding-top: 30px;
+    padding-bottom: 30px;
+    padding-right: 20px;
+    font-size: 26px;
+    font-family: MAX PINJOHNV2;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
+@media only screen and (max-width: 580px) {
+    body {
+        background-color: rgba(86, 240, 119, 0.384);
+    }
+    .grid-container {
+        display: grid;
+        grid-template-columns: auto;
+        grid-gap: 10px;
+    }
+    #header {
+        grid-column: 1 / span 1;
+    }
+    #main1 {
+        grid-column: 1 / span 1;
+        text-align: left;
+    }
+    #main2 {
+        grid-column: 1 / span 1;
+    }
+    #main3 {
+        grid-column: 1 / span 1;
+    }
+    #right {
+        grid-column: 1 / span 1;
+    }
+    #footer {
+        grid-column: 1 / span 1;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        padding-right: 20px;
+    }
+}
+
+p {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    font-family: MAX PINJOHNV2;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}
+
+br {
+    display: flex;
+    justify-content: center;
+    font-size: 26px;
+    font-family: MAX PINJOHNV2;
+    text-align: center;
+    text-shadow: -1px 0 black, 0 1px black, 1px 0 black, 0 -1px black
+}

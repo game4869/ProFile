@@ -1,0 +1,20 @@
+body {
+    background-image: url(https://i.pinimg.com/originals/4a/94/26/4a94268541d7a0ed95a8be5138e8a288.jpg);
+    width: 12.20rem;
+    height: 14.50rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 12px;
+    margin: auto;
+    display: block;
+}
+
+button {
+    width: 6.20rem;
+    height: 2.50rem;
+    display: flex;
+    justify-content: center;
+    border-radius: 1px;
+    margin: auto;
+    display: block;
+}
